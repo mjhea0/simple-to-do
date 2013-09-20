@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Bootstrap To Do List</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- styles -->
+    <link href="bootstrap.css" rel="stylesheet" media="screen">
+    <link rel="stylesheet" type="text/css" href="main.css">
+  </head>
+	<body>
+
+		<div class="container">
+
+        <h1 class="form-signin-heading">simple-to-do</h1>
+						<div class="input-group" style="padding-bottom:10px;">
+							<input type="text" class="form-control" id="item" style="width: 200px;" placeholder="Enter an item ..">&nbsp;
+							<input type="text" class="form-control" id="number" style="width: 200px;" placeholder="Enter a due date ..">
+						</div>
+      
+      	<div id="list">
+					<table id="my_list">
+						<thead>
+						<tr>
+            	<th>Item</th><th>Due date</th><th>Complete?</th>
+          	</tr>
+        		</thead>
+						<tbody></tbody>
+					</table>
+				</div>
+
+
+    </div>
+
+
+		<!-- scripts -->
+		<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+    <script language="Javascript" type="text/javascript" src="list.js"></script>
+    <script src="bootstrap.min.js"></script>
+
+	</body>
+</html>
